@@ -11,11 +11,6 @@ export const metadata: Metadata = {
     default: 'MindCycleAI',
   },
   description: 'Grounded Intelligence for Regulated Domains.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
 }
 
 export default function RootLayout({
