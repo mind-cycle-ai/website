@@ -4,8 +4,8 @@
 
 /** @type {import('next').NextConfig} */
 export default {
-  basePath: '/website',
-  assetPrefix: '/website/',
+  // basePath: '/website',
+  // assetPrefix: '/website/',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 }
 
