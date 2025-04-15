@@ -8,6 +8,7 @@ export default {
   // assetPrefix: '/website/',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   output: 'export',
+  images: { unoptimized: true },
 }
 
 // const withMDX = nextMDX({
