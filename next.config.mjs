@@ -7,6 +7,7 @@ export default {
   // basePath: '/website',
   // assetPrefix: '/website/',
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  output: 'export',
 }
 
 // const withMDX = nextMDX({
