@@ -77,7 +77,7 @@ export default async function Home() {
                     </h3>
                     <p className="text-xs text-zinc-600 dark:text-zinc-400">
                       Our technology empowers you to move faster, and go further
-                      with the same energy.
+                      with the same effort.
                     </p>
                   </div>
                 </li>
