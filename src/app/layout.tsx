@@ -2,15 +2,16 @@ import { type Metadata } from 'next'
 
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
+import { DESCRIPTION, COMPANY_NAME } from '@/constants'
 
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - MindCycleAI',
-    default: 'MindCycleAI',
+    template: `%s - ${COMPANY_NAME}`,
+    default: COMPANY_NAME,
   },
-  description: 'Grounded Intelligence for Regulated Domains.',
+  description: DESCRIPTION,
 }
 
 export default function RootLayout({

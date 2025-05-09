@@ -2,6 +2,7 @@ import Image from 'next/image'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { COMPANY_NAME, DESCRIPTION } from '@/constants'
 
 import image1 from '@/images/photos/image-1.png'
 import image2 from '@/images/photos/image-2.png'
@@ -42,15 +43,15 @@ export default async function Home() {
       <Container className="mx-12 mt-9">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Grounded Intelligence for Regulated Domains
+            {DESCRIPTION}
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            MindCycle builds AI systems that extract grounded, verifiable
+            {COMPANY_NAME} builds AI systems that extract grounded, verifiable
             answers from complex public and technical documents. Our platform
             combines semantic search, hierarchical embeddings, and
             citation-aware retrieval to surface precise insights from dense
             regulations, manuals, and standards. Whether applied to military
-            doctrine or construction specs, MindCycle enables faster
+            doctrine or construction specs, {COMPANY_NAME} enables faster
             decision-making, deeper understanding, and total transparency — with
             every answer traceable back to its source.
           </p>
@@ -64,7 +65,7 @@ export default async function Home() {
           <div className="lg:pl-16">
             <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
               <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                MindCycle AI
+                {COMPANY_NAME}
               </h2>
               <ul className="mt-6 space-y-4">
                 <li className="flex gap-4">

@@ -1,7 +1,7 @@
 // import Link from 'next/link'
 
 import { ContainerInner, ContainerOuter } from '@/components/Container'
-
+import { COMPANY_NAME, PHONE_NUMBER, EMAIL } from '@/constants'
 // function NavLink({
 //   href,
 //   children,
@@ -32,12 +32,12 @@ export function Footer() {
                 <NavLink href="/products">Products</NavLink>
                 <NavLink href="/contact">Contact</NavLink>
               </div> */}
-              <p>admin@mindcycle.tech</p>
+              <p>{EMAIL}</p>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} MindCycle AI. All rights
+                &copy; {new Date().getFullYear()} {COMPANY_NAME}. All rights
                 reserved.
               </p>
-              <p>(360) 298-4257</p>
+              <p>{PHONE_NUMBER}</p>
             </div>
           </ContainerInner>
         </div>
