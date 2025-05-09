@@ -4,11 +4,11 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { COMPANY_NAME, DESCRIPTION } from '@/constants'
 
-import image1 from '@/images/photos/image-4.png'
-import image2 from '@/images/photos/image-1.png'
-import image3 from '@/images/photos/image-2.png'
-import image4 from '@/images/photos/image-5.png'
-import image5 from '@/images/photos/image-4.png'
+import image1 from '@/images/photos/image-1.png'
+import image2 from '@/images/photos/image-2.png'
+import image3 from '@/images/photos/image-3.png'
+import image4 from '@/images/photos/image-4.png'
+import image5 from '@/images/photos/image-1.png'
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
